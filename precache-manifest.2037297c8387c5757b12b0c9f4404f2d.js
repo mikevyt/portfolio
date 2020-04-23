@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90343bd8aaef85ee3480021807767b55",
+    "revision": "a70549e9196e45e7c4680567e05a5993",
     "url": "/index.html"
   },
   {
-    "revision": "d69e66f46fdcb050985e",
-    "url": "/static/css/main.2a6b68f7.chunk.css"
+    "revision": "789b1961a735378f5e0c",
+    "url": "/static/css/main.332cd592.chunk.css"
   },
   {
-    "revision": "febaf40e03e845e8e251",
-    "url": "/static/js/2.ee626dcc.chunk.js"
+    "revision": "8129f2d0c1d8e1b5140c",
+    "url": "/static/js/2.a51e90fd.chunk.js"
   },
   {
     "revision": "b5a01430b9928300ee798657f45fe7d4",
-    "url": "/static/js/2.ee626dcc.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a51e90fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d69e66f46fdcb050985e",
-    "url": "/static/js/main.c68556db.chunk.js"
+    "revision": "789b1961a735378f5e0c",
+    "url": "/static/js/main.2f5d3b95.chunk.js"
   },
   {
     "revision": "7a008b5c3a6c3fefae51",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "86041f7d1cd63ba788fcd4e29a914990",
     "url": "/static/media/cricket.86041f7d.gif"
+  },
+  {
+    "revision": "2215cb598a78fa4e1afd469434a7842b",
+    "url": "/static/media/dougScore.2215cb59.gif"
   },
   {
     "revision": "8c639675bc7300fdd370ac35e5db800a",
@@ -64,8 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.2f67d006.jpg"
   },
   {
-    "revision": "f3d29322fb2b583f6ab7ad50abb047af",
-    "url": "/static/media/resume.f3d29322.pdf"
+    "revision": "a29ae88cee49d9323f580cec1b93b804",
+    "url": "/static/media/resume.a29ae88c.pdf"
+  },
+  {
+    "revision": "74a35a9cdd5f60e7aa7455a8835e3611",
+    "url": "/static/media/rollout.74a35a9c.png"
   },
   {
     "revision": "68397bc539056ebbd47f8c5ff78b74b6",
@@ -78,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "df3f7acaccbf2b9db7fe17d3f6310a26",
     "url": "/static/media/snyder.df3f7aca.jpg"
+  },
+  {
+    "revision": "ab5ada0d13268d238aeea775a0fbfcf7",
+    "url": "/static/media/sudoku.ab5ada0d.gif"
   },
   {
     "revision": "28f6983ced8651f58564f5f8397d6795",
