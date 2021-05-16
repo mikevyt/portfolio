@@ -9,22 +9,22 @@ const recommendations = [
         title: 'CTO at engineering.com & Co-founder of ProjectBoard',
         photo: 'renata.jpg',
         body: `
-                Michael was hired to work as a Developer and Community Manager. He not 
+                Dennis was hired to work as a Developer and Community Manager. He not 
                 only exceeded our expectations in these roles, but took on responsibilities 
                 that were outside of his job description like social media promotion, creating 
-                and managing email newsletters, marketing and copy writing. As a developer, Michael 
+                and managing email newsletters, marketing and copy writing. As a developer, Dennis 
                 was able to take on complex tasks and work independently to problem solve issues.
-                We were also thrilled with how well Michael managed out community. Michael is an 
+                We were also thrilled with how well Dennis managed out community. Dennis is an 
                 excellent communicator, both written and verbal.
                 <br />
                 <br />
-                One of the best qualities about Michael, is that you can ask him to do absolutely 
+                One of the best qualities about Dennis, is that you can ask him to do absolutely 
                 any task or challenge and he does it with a smile and enthusiasm. He was a joy to 
                 have in the office everyday and everyone on the team agrees that he'll be successful 
                 in whatever it is he decides to do in life.
                 <br />
                 <br />
-                Michael made a huge impact on me and is someone I would hire, even if I wasn’t hiring. 
+                Dennis made a huge impact on me and is someone I would hire, even if I wasn’t hiring. 
                 Any company would be very lucky to have him.
             `
     },
@@ -33,9 +33,9 @@ const recommendations = [
         title: 'Blockchain Engineer at Grain Discovery',
         photo: 'warren.jpg',
         body: `
-                Michael was an exceptional employee during his time at Grain Discovery. 
+                Dennis was an exceptional employee during his time at Grain Discovery. 
                 He performed all tasks effectively and consistently went above and beyond 
-                in his execution. Michael needed very little management to excel in his 
+                in his execution. Dennis needed very little management to excel in his 
                 position here and I would highly recommend him to anyone looking for a 
                 passionate, driven and skilled developer.
             `
@@ -45,7 +45,7 @@ const recommendations = [
         title: 'Event Producer at FITC',
         photo: 'patrick.jpg',
         body: `
-                Friendly, professional, and comfortable under pressure - Michael 
+                Friendly, professional, and comfortable under pressure - Dennis 
                 was an exemplary worker in every way. He's welcome to work with 
                 me anytime!
             `

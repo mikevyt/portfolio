@@ -7,7 +7,7 @@ const SplashText: FC = () => {
     return (
         <div>
             <h1 className="title is-1">
-                Hey, I'm Michael.{' '}
+                Hey, I'm Dennis.{' '}
                 <span role="img" aria-label="wave">
                     👋🏽
                 </span>

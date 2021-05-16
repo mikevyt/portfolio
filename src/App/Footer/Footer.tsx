@@ -19,7 +19,7 @@ const Footer: FC = () => {
                                 <i className="fab fa-github social-icon"></i>
                             </a>
                             <a
-                                href="https://medium.com/@michael.vytlingam"
+                                href="https://medium.com/@Dennis.vytlingam"
                                 rel="Medium Profile"
                             >
                                 <i className="fab fa-medium social-icon"></i>
@@ -43,7 +43,7 @@ const Footer: FC = () => {
                             </a>
                         </div> */}
                     </div>
-                    <p>© 2020 Michael Vytlingam. All Rights Reserved.</p>
+                    <p>© 2020 Dennis Vytlingam. All Rights Reserved.</p>
                 </div>
                 {/* <div className="is-divider-vertical"></div> */}
                 <div className="column footer-right">

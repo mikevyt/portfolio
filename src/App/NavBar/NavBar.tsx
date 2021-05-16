@@ -29,7 +29,7 @@ const NavBar: FC<NavBarProps> = (props: NavBarProps) => {
     });
 
     const toggleNav = () => {
-        var nav = document.getElementById('michael');
+        var nav = document.getElementById('Dennis');
         if (!nav) return;
         var className = nav.getAttribute('class');
         if (className === 'navbar-menu') {
@@ -76,7 +76,7 @@ const NavBar: FC<NavBarProps> = (props: NavBarProps) => {
                     )}
                 </div>
 
-                <div id="michael" className="navbar-menu" onClick={toggleNav}>
+                <div id="Dennis" className="navbar-menu" onClick={toggleNav}>
                     <NavItems />
                 </div>
             </div>

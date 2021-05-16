@@ -35,7 +35,7 @@ class AnimatedName extends Component {
 
         return (
             <div>
-                <div className="name-text">Michael Vytlingam</div>
+                <div className="name-text">Dennis Vytlingam</div>
                 <div className="position-text animated">
                     {POSITIONS[position]}
                 </div>
