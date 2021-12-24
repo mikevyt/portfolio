@@ -37,7 +37,7 @@ export const AboutMe = () => {
                     along the way.
                 </p>
                 <br />
-                <p>Below are my projects and experiences, let me know what you think!</p>
+                <p>Below are my experiences, let me know what you think!</p>
                 <br />
                 <div className="sign-off">
                     <img

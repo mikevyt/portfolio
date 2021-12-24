@@ -11,7 +11,7 @@ export const Projects = () => {
         {
             name: 'projectRollout',
             coverPhoto: 'rollout.png',
-            date: 'April 2020 to Present',
+            date: 'April 2020 (Paused)',
             body: `
                 A platform for matchmaking gaming teammates based on non-traditional 
                 features, such as their hero preferences, their likeliness to tilt, 
@@ -44,7 +44,6 @@ export const Projects = () => {
         },
         {
             name: 'projectDougScore',
-            coverPhoto: 'dougScore.gif',
             date: 'September 2019',
             body: `
                 A simple GraphQL API for a vehicle business app to experiment with GraphQL queries and mutations.

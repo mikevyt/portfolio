@@ -8,7 +8,6 @@ import Knowledge from './Knowledge/Knowledge';
 import ContactMe from './ContactMe/ContactMe';
 import { NavBar } from './NavBar/NavBar';
 import { AboutMe } from './AboutMe/AboutMe';
-import { Projects } from './Projects/Projects';
 import { Experiences } from './Experiences/Experiences';
 import { Footer } from './Footer/Footer';
 
@@ -61,9 +60,9 @@ export const App = () => {
                     >
                         <Experiences />
                     </Element>
-                    <Element id="projects" name="projects" className="body-section">
+                    {/* <Element id="projects" name="projects" className="body-section">
                         <Projects />
-                    </Element>
+                    </Element> */}
                     <Element
                         id="contact-me"
                         name="contact-me"

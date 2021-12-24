@@ -5,7 +5,7 @@ import './ProjectCard.scss';
 interface ProjectCardProps {
     project: {
         name: string;
-        coverPhoto: string;
+        coverPhoto?: string;
         date: string;
         body: string;
     };
@@ -20,12 +20,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
 
     return (
         <article className={`message job-card ${isDarkTheme && 'dark-layer-1'}`}>
-            <div
-                className="message-header cover-photo"
-                style={{
-                    backgroundImage: `url('${require(`../../../assets/${project.coverPhoto}`)}')`,
-                }}
-            />
+            {project.hasOwnProperty('coverPhoto') && (
+                <div
+                    className="message-header cover-photo"
+                    style={{
+                        backgroundImage: `url('${require(`../../../assets/${project.coverPhoto}`)}')`,
+                    }}
+                />
+            )}
             <div className="message-body">
                 <div className="title-row">
                     <div className="project-name">

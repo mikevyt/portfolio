@@ -24,9 +24,9 @@ const NavItems = ({ onThemeChange }: NavItemsProps) => {
             <ScrollLink to="experience" smooth className={`navbar-item ${isDarkTheme && 'dark-navbar-item'}`}>
                 Experience
             </ScrollLink>
-            <ScrollLink to="projects" smooth className={`navbar-item ${isDarkTheme && 'dark-navbar-item'}`}>
+            {/* <ScrollLink to="projects" smooth className={`navbar-item ${isDarkTheme && 'dark-navbar-item'}`}>
                 Projects
-            </ScrollLink>
+            </ScrollLink> */}
             <ScrollLink
                 to="contact-me"
                 smooth
