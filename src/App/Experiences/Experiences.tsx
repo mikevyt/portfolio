@@ -6,6 +6,15 @@ import JobCard from './JobCard/JobCard';
 
 export const Experiences = () => {
     const isDarkTheme = React.useContext(ThemeContext);
+    const [update, causeUpdate] = React.useState(false);
+
+    const handleResize = () => causeUpdate(!update);
+
+    React.useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    });
+
     const jobs = [
         {
             logo: 'snowflake.png',
@@ -131,7 +140,7 @@ export const Experiences = () => {
             coverPhoto: 'kendo.jpg',
             company: 'MVGD',
             position: 'Freelance Graphic Designer',
-            date: 'Dec 2015 - Sept 2018', // TODO: Add links to websites
+            date: 'Dec 2015 - Sept 2018',
             location: 'Remote',
             body: `
                 I created logos, banners, documents, and websites for 
@@ -141,14 +150,37 @@ export const Experiences = () => {
         },
     ];
 
+    const isMobile = window.innerWidth < 1024;
+
+    const columns: any[][] = [[], []];
+    if (isMobile) {
+        columns[0] = jobs;
+    } else {
+        for (let i = 0; i < jobs.length; i += 2) {
+            columns[0].push(jobs[i]);
+            columns[1].push(jobs[i + 1]);
+        }
+    }
+
     return (
         <div className="container">
             <h1 className={`title has-text-centered is-3 ${isDarkTheme && 'dark-title'}`}>Experiences</h1>
-            <div className="experiences">
-                {jobs.map((job, index) => (
+
+            {isMobile ? columns[0].map((job, index) => (
+                <div className="experiences">
                     <JobCard key={index} job={job} />
-                ))}
-            </div>
+                </div>
+            )) : (
+                <div className="two-column">
+                    {columns.map(column =>
+                        <div className="experiences">
+                            {column.map((job, index) => (
+                                <JobCard key={index} job={job} />
+                            ))}
+                        </div>
+                    )}
+                </div>
+            )}
         </div>
     );
 };

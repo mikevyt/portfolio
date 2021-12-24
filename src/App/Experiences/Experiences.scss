@@ -1,7 +1,10 @@
+.two-column {
+    display: flex;
+    flex-direction: row;
+}
 .experiences {
     display: flex;
-    // flex-wrap: wrap;
     flex-direction: column;
+    align-content: stretch;
     align-items: center;
-    justify-content: center;
 }

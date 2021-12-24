@@ -8,8 +8,8 @@
 
 .job-card {
     margin: 2rem 2rem;
-    @include desktop-up {
-        width: 45%;
+    @include tablet-portrait-up {
+        max-width: 50vw;
     }
 }
 
