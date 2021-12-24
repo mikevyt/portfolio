@@ -76,7 +76,7 @@ const Knowledge = () => {
         <div className="knowledge">
             <article>
                 {skills.map((skill) => (
-                    <div className="category">
+                    <div className="category" key={skill.title}>
                         <h1 className={`title is-size-4 ${isDarkTheme && 'dark-title'}`}>{skill.title}</h1>
                         <Tags tags={skill.tags} />
                     </div>
