@@ -1,8 +1,12 @@
+@import '../../styles/breakpoints.scss';
+
 .knowledge-container {
     border: 1px solid #cde9ff;
     border-radius: 1rem;
     padding: 2rem !important;
-    margin: 0.75rem;
+    @include tablet-down {
+        margin: 2rem !important;
+    }
 }
 
 .with-center {

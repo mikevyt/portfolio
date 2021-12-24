@@ -1,6 +1,5 @@
 import React from 'react';
 
-import withCenterFormatting from '../../HOCs/withCenterFormatting/withCenterFormatting';
 import { ThemeContext } from '../App';
 
 import './Knowledge.scss';
@@ -78,7 +77,7 @@ const Knowledge = () => {
     ];
 
     return (
-        <div className={`column is-half is-offset-one-quarter knowledge-container ${isDarkTheme ? 'dark-with-center' : 'with-center'}`}>
+        <div className={`container is-half is-offset-one-quarter knowledge-container ${isDarkTheme ? 'dark-with-center' : 'with-center'}`}>
             <h1 className={`title has-text-centered is-3 ${isDarkTheme && 'dark-title'}`}>Knowledge</h1>
             <div className="knowledge">
                 <article>

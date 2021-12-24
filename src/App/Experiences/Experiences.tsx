@@ -167,13 +167,13 @@ export const Experiences = () => {
             <h1 className={`title has-text-centered is-3 ${isDarkTheme && 'dark-title'}`}>Experiences</h1>
 
             {isMobile ? columns[0].map((job, index) => (
-                <div className="experiences">
-                    <JobCard key={index} job={job} />
+                <div className="experiences" key={index}>
+                    <JobCard job={job} />
                 </div>
             )) : (
                 <div className="two-column">
-                    {columns.map(column =>
-                        <div className="experiences">
+                    {columns.map((column, cIndex) =>
+                        <div className="experiences" key={cIndex} >
                             {column.map((job, index) => (
                                 <JobCard key={index} job={job} />
                             ))}

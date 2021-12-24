@@ -11,7 +11,7 @@ const withCenterFormatting = (
     return () => {
         const isDarkTheme = React.useContext(ThemeContext);
         return (
-            <div className={`column is-half is-offset-one-quarter ${isDarkTheme ? 'dark-with-center' : 'with-center'}`}>
+            <div className={`container is-half is-offset-one-quarter ${isDarkTheme ? 'dark-with-center' : 'with-center'}`}>
                 <h1 className={`title has-text-centered is-3 ${isDarkTheme && 'dark-title'}`}>{title}</h1>
                 <WrappedComponent />
             </div>
