@@ -1,3 +1,5 @@
+@import '../../styles/styles.scss';
+
 .social-media-links {
     font-size: 2rem;
 }
@@ -14,4 +16,8 @@
 .footer-right {
     text-align: right;
     font-size: 1.5rem;
+}
+
+.footer a:hover {
+    color: $grey-light !important;
 }
