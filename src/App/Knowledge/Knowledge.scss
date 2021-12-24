@@ -1,3 +1,14 @@
+.knowledge-container {
+    border: 1px solid #cde9ff;
+    border-radius: 1rem;
+    padding: 2rem !important;
+    margin: 0.75rem;
+}
+
+.with-center {
+    background: white;
+}
+
 .tags {
     margin-bottom: 1rem !important;
     margin-left: 2rem;
@@ -18,8 +29,9 @@
 
 .skill {
     transition: 0.2s !important;
+    cursor: default;
 }
 
 .skill:hover {
-    background-color: #cde9ff !important; 
+    background-color: #cde9ff !important;
 }

@@ -73,15 +73,18 @@ const Knowledge = () => {
     ];
 
     return (
-        <div className="knowledge">
-            <article>
-                {skills.map((skill) => (
-                    <div className="category" key={skill.title}>
-                        <h1 className={`title is-size-4 ${isDarkTheme && 'dark-title'}`}>{skill.title}</h1>
-                        <Tags tags={skill.tags} />
-                    </div>
-                ))}
-            </article>
+        <div className={`column is-half is-offset-one-quarter knowledge-container ${isDarkTheme ? 'dark-with-center' : 'with-center'}`}>
+            <h1 className={`title has-text-centered is-3 ${isDarkTheme && 'dark-title'}`}>Knowledge</h1>
+            <div className="knowledge">
+                <article>
+                    {skills.map((skill) => (
+                        <div className="category" key={skill.title}>
+                            <h1 className={`title is-size-4 ${isDarkTheme && 'dark-title'}`}>{skill.title}</h1>
+                            <Tags tags={skill.tags} />
+                        </div>
+                    ))}
+                </article>
+            </div>
         </div>
     );
 };
@@ -100,4 +103,4 @@ const Tags = ({ tags }: TagsProps) => (
     </div>
 );
 
-export default withCenterFormatting('Knowledge', Knowledge);
+export default Knowledge;
