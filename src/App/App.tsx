@@ -20,6 +20,9 @@ export const App = () => {
     const [hasScrolled, setHasScrolled] = React.useState(false);
     const [isDarkTheme, setIsDarkTheme] = React.useState(prefersDarkScheme);
 
+    // Set overscroll color
+    document.getElementsByTagName('html')[0].style.backgroundColor = isDarkTheme ? '#242424' : '#FFF';
+
     const handleScroll = React.useCallback(() => {
         if (window.scrollY > 0 && !hasScrolled) {
             setHasScrolled(true);
