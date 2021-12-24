@@ -32,7 +32,7 @@ export const NavBar = ({ onThemeChange }: NavBarProps) => {
     };
 
     const getNavStyle = React.useCallback(() => {
-        let style = 'navbar is-fixed-top animated fadeIn'
+        let style = 'navbar is-fixed-top'
         if (isDarkTheme) {
             style = style.concat(!hasScrolled ? ' dark-background' : ' dark-layer-1');
         } else if (hasScrolled) {
