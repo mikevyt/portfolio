@@ -33,6 +33,19 @@ $message-body-border-width: 0;
     transition: color 0.4s ease-in-out;
 }
 
+.dark-subtitle a {
+    color: $grey-lighter !important;
+    transition: color 0.2s ease-in-out;
+    border-bottom: 1px solid $grey-lighter;
+    padding-bottom: 1px;
+}
+
+.dark-subtitle a:hover {
+    color: $grey-light !important;
+    border-bottom: 2px solid $grey-light;
+    padding-bottom: 2px;
+}
+
 .dark-text {
     color: $grey-lighter !important;
     transition: color 0.4s ease-in-out;
