@@ -34,7 +34,7 @@ const SplashText = () => {
             </span>
         </h1>
         <h2 className={`subtitle ${isDarkTheme && 'dark-subtitle'}`}>
-            I like to build beautiful and smart things for wonderful people.
+            I like to build beautiful and smart things working with wonderful people.
             <br/>
             I’m a Software Engineer at <a href="https://www.snowflake.com/">Snowflake</a>.
         </h2>
