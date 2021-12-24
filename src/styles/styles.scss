@@ -51,6 +51,15 @@ $message-body-border-width: 0;
     transition: color 0.4s ease-in-out;
 }
 
+.dark-navbar-item {
+    color: $grey-lighter !important;
+    transition: color 0.4s ease-in-out;
+}
+
+.dark-navbar-item:hover {
+    background-color: $grey-dark !important;
+}
+
 .dark-with-center {
     background: $black-ter !important;
     transition: background 0.4s ease-in-out;
