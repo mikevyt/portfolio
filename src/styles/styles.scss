@@ -7,6 +7,7 @@ $family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
 
 $link: hsl(0, 0%, 29%);
 $white-ter: hsl(0, 0%, 98%);
+$link-blue: hsl(217, 71%, 53%);
 
 $message-radius: 1rem;
 $message-header-radius: 1rem;
@@ -21,6 +22,20 @@ $message-body-border-width: 0;
 @import '../../node_modules/bulma/sass/components/navbar.sass';
 @import '../../node_modules/bulma/sass/layout/_all.sass';
 @import '../../node_modules/bulma-divider/dist/css/bulma-divider.sass';
+// Special Light Styles
+.underline {
+    color: $info !important;
+    transition: color 0.2s ease-in-out;
+    border-bottom: 1px solid $info;
+    padding-bottom: 1px;
+}
+
+.underline:hover {
+    color: $link-blue !important;
+    border-bottom: 2px solid $link-blue;
+    transition: padding-bottom 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
+    padding-bottom: 2px;
+}
 
 // Dark Styles
 .dark-title {
@@ -33,16 +48,17 @@ $message-body-border-width: 0;
     transition: color 0.4s ease-in-out;
 }
 
-.dark-subtitle a {
+.dark-underline {
     color: $grey-lighter !important;
     transition: color 0.2s ease-in-out;
     border-bottom: 1px solid $grey-lighter;
     padding-bottom: 1px;
 }
 
-.dark-subtitle a:hover {
+.dark-underline:hover {
     color: $grey-light !important;
     border-bottom: 2px solid $grey-light;
+    transition: padding-bottom 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
     padding-bottom: 2px;
 }
 
