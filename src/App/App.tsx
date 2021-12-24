@@ -14,10 +14,11 @@ import { Footer } from './Footer/Footer';
 
 export const ThemeContext = React.createContext(false);
 export const ScrolledContext = React.createContext(false);
+const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 export const App = () => {
     const [hasScrolled, setHasScrolled] = React.useState(false);
-    const [isDarkTheme, setIsDarkTheme] = React.useState(false);
+    const [isDarkTheme, setIsDarkTheme] = React.useState(prefersDarkScheme);
 
     const handleScroll = React.useCallback(() => {
         if (window.scrollY > 0 && !hasScrolled) {
