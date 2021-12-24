@@ -12,7 +12,7 @@ export const Footer = () => {
             <section className="container columns">
                 <div className="column">
                     <SocialIcons />
-                    <p>© 2021 Michael Vytlingam. All Rights Reserved.</p>
+                    <p>© 2022 Michael Vytlingam. All Rights Reserved.</p>
                 </div>
                 <div className="column footer-right">
                     <Link to="splash" smooth>
