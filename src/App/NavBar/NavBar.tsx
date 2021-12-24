@@ -28,7 +28,7 @@ export const NavBar = ({ onThemeChange }: NavBarProps) => {
     const toggleNav = () => {
         var nav = document.getElementById('nav-items') as HTMLElement;
         var className = nav.getAttribute('class') || "";
-        setMenuToggled(!className.includes('is-active'));
+        setMenuToggled(isMobile && !className.includes('is-active'));
     };
 
     const getNavStyle = React.useCallback(() => {
