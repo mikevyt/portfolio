@@ -74,7 +74,7 @@ export const NavBar = ({ onThemeChange }: NavBarProps) => {
                         </button>
                     )}
                 </div>
-                <div id="nav-items" className={`navbar-menu ${isDarkTheme && 'dark-layer-1'} ${menuToggled && 'is-active'}`} onClick={toggleNav}>
+                <div id="nav-items" className={`navbar-menu ${menuToggled && isDarkTheme && 'dark-layer-1'} ${menuToggled && 'is-active'}`} onClick={toggleNav}>
                     <NavItems onThemeChange={onThemeChange} />
                 </div>
             </div>
