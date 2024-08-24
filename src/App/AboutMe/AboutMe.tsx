@@ -50,14 +50,6 @@ export const AboutMe = () => {
         </p>
         <br />
         <p>Below are my experiences, let me know what you think!</p>
-        <br />
-        <div className="sign-off">
-          <img
-            src={require(`../../assets/signature.png`)}
-            alt="signature"
-            className={`signature ${isDarkTheme ? "dark-signature" : ""}`}
-          />
-        </div>
       </div>
     </div>
   );

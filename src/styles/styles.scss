@@ -23,9 +23,13 @@ $message-body-border-width: 0;
 @import '../../node_modules/bulma/sass/layout/_all.sass';
 @import '../../node_modules/bulma-divider/dist/css/bulma-divider.sass';
 // Special Light Styles
+* {
+    transition: background-color 0.4s ease-in-out 0s;
+}
+
 .underline {
     color: $info !important;
-    transition: color 0.2s ease-in-out;
+    transition: padding-bottom 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
     border-bottom: 1px solid $info;
     padding-bottom: 1px;
     white-space: nowrap;
@@ -34,7 +38,6 @@ $message-body-border-width: 0;
 .underline:hover {
     color: $link-blue !important;
     border-bottom: 2px solid $link-blue;
-    transition: padding-bottom 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
     padding-bottom: 2px;
 }
 
@@ -51,7 +54,7 @@ $message-body-border-width: 0;
 
 .dark-underline {
     color: $grey-lighter !important;
-    transition: color 0.2s ease-in-out;
+    transition: padding-bottom 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
     border-bottom: 1px solid $grey-lighter;
     padding-bottom: 1px;
     white-space: nowrap;
@@ -60,7 +63,6 @@ $message-body-border-width: 0;
 .dark-underline:hover {
     color: $grey-light !important;
     border-bottom: 2px solid $grey-light;
-    transition: padding-bottom 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
     padding-bottom: 2px;
 }
 
@@ -80,7 +82,7 @@ $message-body-border-width: 0;
 
 .dark-with-center {
     background: $black-ter !important;
-    transition: background 0.4s ease-in-out;
+    border-radius: 16px;
 }
 
 .dark-layer-1 {
