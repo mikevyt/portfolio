@@ -44,12 +44,10 @@ $message-body-border-width: 0;
 // Dark Styles
 .dark-title {
     color: $grey-lighter !important;
-    transition: color 0.4s ease-in-out;
 }
 
 .dark-subtitle {
     color: $grey-lighter !important;
-    transition: color 0.4s ease-in-out;
 }
 
 .dark-underline {
@@ -68,12 +66,10 @@ $message-body-border-width: 0;
 
 .dark-text {
     color: $grey-lighter !important;
-    transition: color 0.4s ease-in-out;
 }
 
 .dark-navbar-item {
     color: $grey-lighter !important;
-    transition: color 0.4s ease-in-out;
 }
 
 .dark-navbar-item:hover {
@@ -87,15 +83,8 @@ $message-body-border-width: 0;
 
 .dark-layer-1 {
     background-color: $grey-darker;
-    transition: background-color 0.4s ease-in-out;
 }
 
 .dark-background {
     background-color: $black-ter;
-    transition: background-color 0.4s ease-in-out;
-}
-
-.dark-signature {
-    filter: invert(100%);
-    transition: filter 0.4s ease-in-out;
 }
