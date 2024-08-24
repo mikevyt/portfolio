@@ -28,6 +28,7 @@ $message-body-border-width: 0;
     transition: color 0.2s ease-in-out;
     border-bottom: 1px solid $info;
     padding-bottom: 1px;
+    white-space: nowrap;
 }
 
 .underline:hover {
@@ -53,6 +54,7 @@ $message-body-border-width: 0;
     transition: color 0.2s ease-in-out;
     border-bottom: 1px solid $grey-lighter;
     padding-bottom: 1px;
+    white-space: nowrap;
 }
 
 .dark-underline:hover {

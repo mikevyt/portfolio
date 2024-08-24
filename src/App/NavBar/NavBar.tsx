@@ -110,7 +110,7 @@ const Name = () => {
         Michael Vytlingam
       </div>
       <div className={`position-text ${isDarkTheme ? "dark-text" : ""}`}>
-        Full Stack Developer
+        Software Engineer
       </div>
     </div>
   );

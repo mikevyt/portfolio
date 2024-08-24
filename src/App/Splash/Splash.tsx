@@ -34,8 +34,7 @@ const SplashText = () => {
         </span>
       </h1>
       <h2 className={`subtitle ${isDarkTheme ? "dark-subtitle" : ""}`}>
-        I like to build beautiful and smart things working with wonderful
-        people.
+        I build beautiful and smart things for wonderful people.
         <br />
         I’m a Software Engineer at{" "}
         <a
@@ -44,12 +43,12 @@ const SplashText = () => {
         >
           Snowflake
         </a>{" "}
-        working on the{" "}
+        working on{" "}
         <a
           className={`${isDarkTheme ? "dark-underline" : "underline"}`}
           href="https://www.snowflake.com/en/data-cloud/marketplace/"
         >
-          Marketplace
+          Marketplace Monetization
         </a>
         .
       </h2>
