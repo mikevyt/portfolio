@@ -9,6 +9,12 @@
     margin-right: 0.5rem;
 }
 
+.dark-social-icon {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: $grey-light;
+}
+
 .resume-button {
     text-align: right;
 }
@@ -18,6 +24,10 @@
     font-size: 1.5rem;
 }
 
-.footer a:hover {
-    color: $grey-light !important;
+.social-icon:hover {
+    color: $grey-darker !important;
+}
+
+.dark-social-icon:hover {
+    color: $grey-lighter !important;
 }

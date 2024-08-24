@@ -12,10 +12,16 @@ export const Footer = () => {
       <section className="container columns">
         <div className="column">
           <SocialIcons />
-          <p>© 2024 Michael Vytlingam. All Rights Reserved.</p>
+          <p {...(isDarkTheme ? { className: "dark-text" } : {})}>
+            © 2024 Michael Vytlingam. All Rights Reserved.
+          </p>
         </div>
         <div className="column footer-right">
-          <Link to="splash" smooth>
+          <Link
+            to="splash"
+            smooth
+            className={isDarkTheme ? "dark-social-icon" : "social-icon"}
+          >
             <i className="fas fa-arrow-up"></i>
           </Link>
         </div>

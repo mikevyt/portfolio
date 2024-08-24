@@ -1,18 +1,24 @@
-import React from 'react';
+import React from "react";
+import { ThemeContext } from "../App/App";
 
-export const SocialIcons = () => (
+export const SocialIcons = () => {
+  const isDarkTheme = React.useContext(ThemeContext);
+  return (
     <div className="social-media-links">
-        <a
-            href="https://github.com/mikevyt/"
-            rel="Github Profile"
-        >
-            <i className="fab fa-github social-icon"></i>
-        </a>
-        <a
-            href="https://www.linkedin.com/in/mikevyt/"
-            rel="LinkedIn Profile"
-        >
-            <i className="fab fa-linkedin social-icon"></i>
-        </a>
+      <a
+        href="https://github.com/mikevyt/"
+        rel="Github Profile"
+        className={isDarkTheme ? "dark-social-icon" : "social-icon"}
+      >
+        <i className={`fab fa-github`}></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/mikevyt/"
+        rel="LinkedIn Profile"
+        className={isDarkTheme ? "dark-social-icon" : "social-icon"}
+      >
+        <i className={`fab fa-linkedin`}></i>
+      </a>
     </div>
-)
+  );
+};
