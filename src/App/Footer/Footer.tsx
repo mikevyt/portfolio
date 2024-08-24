@@ -8,7 +8,7 @@ import "./Footer.scss";
 export const Footer = () => {
   const isDarkTheme = React.useContext(ThemeContext);
   return (
-    <footer className={`footer ${isDarkTheme && "dark-layer-1"}`}>
+    <footer className={`footer ${isDarkTheme ? "dark-layer-1" : ""}`}>
       <section className="container columns">
         <div className="column">
           <SocialIcons />

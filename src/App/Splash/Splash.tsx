@@ -27,13 +27,13 @@ const SplashText = () => {
   const isDarkTheme = React.useContext(ThemeContext);
   return (
     <div>
-      <h1 className={`is-1 title ${isDarkTheme && "dark-title"}`}>
+      <h1 className={`is-1 title ${isDarkTheme ? "dark-title" : ""}`}>
         Hey, I'm Michael.{" "}
         <span role="img" aria-label="wave">
           👋🏽
         </span>
       </h1>
-      <h2 className={`subtitle ${isDarkTheme && "dark-subtitle"}`}>
+      <h2 className={`subtitle ${isDarkTheme ? "dark-subtitle" : ""}`}>
         I like to build beautiful and smart things working with wonderful
         people.
         <br />
