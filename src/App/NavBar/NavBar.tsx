@@ -105,13 +105,8 @@ const Logo = ({ hasScrolled }: { hasScrolled: boolean }) => {
 const Name = () => {
   const isDarkTheme = React.useContext(ThemeContext);
   return (
-    <div>
-      <div className={`name-text ${isDarkTheme ? "dark-text" : ""}`}>
-        Michael Vytlingam
-      </div>
-      <div className={`position-text ${isDarkTheme ? "dark-text" : ""}`}>
-        Software Engineer
-      </div>
+    <div className={`name-text ${isDarkTheme ? "dark-text" : ""}`}>
+      Michael Vytlingam
     </div>
   );
 };
