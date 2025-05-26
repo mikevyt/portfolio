@@ -43,14 +43,7 @@ const SplashText = () => {
         >
           Snowflake
         </a>{" "}
-        working on{" "}
-        <a
-          className={`${isDarkTheme ? "dark-underline" : "underline"}`}
-          href="https://www.snowflake.com/en/data-cloud/marketplace/"
-        >
-          Marketplace Monetization
-        </a>
-        .
+        working on the Billing & Payments Platform.
       </h2>
       <div className="button-row">
         <a

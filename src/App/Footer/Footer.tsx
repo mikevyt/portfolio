@@ -13,7 +13,7 @@ export const Footer = () => {
         <div className="column">
           <SocialIcons />
           <p {...(isDarkTheme ? { className: "dark-text" } : {})}>
-            © 2024 Michael Vytlingam. All Rights Reserved.
+            © 2025 Michael Vytlingam. All Rights Reserved.
           </p>
         </div>
         <div className="column footer-right">

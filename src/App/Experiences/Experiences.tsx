@@ -23,7 +23,11 @@ export const Experiences = () => {
       date: "September 2022 - Present",
       location: "San Mateo, CA",
       body: `
-                <b>Tech:</b> TypeScript, React, Express, JEST
+                I'm working on improving our billing and payments experiences 
+                to make it easier for customers to digest.
+                <br/>
+                <br/>
+                <b>Tech:</b> TypeScript, React, Express, Java
             `,
     },
     {
@@ -33,7 +37,8 @@ export const Experiences = () => {
       date: "May 2021 - August 2021",
       location: "San Mateo, CA (Remote)",
       body: `
-                Built out captivating customer experiences on the Snowflake Data Marketplace product.
+                I shipped projects related to the launch of on-platform monetization.
+                I added a custom slider component to our shared component library.
                 <br/>
                 <br/>
                 <b>Tech:</b> TypeScript, React, Express, JEST

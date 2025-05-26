@@ -12,6 +12,7 @@ const Knowledge = () => {
       tags: [
         "TypeScript",
         "JavaScript",
+        "Java",
         "Python",
         "Go",
         "Dart",
@@ -52,6 +53,7 @@ const Knowledge = () => {
       title: "Back End + Infrastructure",
       tags: [
         "Express",
+        "Spring Boot",
         "Flask",
         "Django",
         "Firebase",
