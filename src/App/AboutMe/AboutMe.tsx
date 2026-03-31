@@ -22,7 +22,7 @@ export const AboutMe = () => {
 
       <div className={`about-me-text ${isDarkTheme ? "dark-text" : ""}`}>
         <p>
-          I'm a Software Engineer at{" "}
+          I'm a Senior Software Engineer at{" "}
           <a
             className={`${isDarkTheme ? "dark-underline" : "underline"}`}
             href="https://www.snowflake.com/"

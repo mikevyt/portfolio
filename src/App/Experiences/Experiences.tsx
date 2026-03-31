@@ -19,7 +19,7 @@ export const Experiences = () => {
     {
       logo: "snowflake.png",
       company: "Snowflake",
-      position: "Software Engineer",
+      position: "Senior Software Engineer",
       date: "September 2022 - Present",
       location: "San Mateo, CA",
       body: `
