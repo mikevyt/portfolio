@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67bff359.css",
-    "main.js": "/static/js/main.3fc880d3.js",
+    "main.js": "/static/js/main.ba20eb56.js",
     "static/media/aboutme-selfie.jpg": "/static/media/aboutme-selfie.8d11aeda97e1d1b20681.jpg",
     "static/media/gd-cover.jpg": "/static/media/gd-cover.543ff063d334eb3a5aa2.jpg",
     "static/media/sudoku.gif": "/static/media/sudoku.f9775ef640b055880766.gif",
@@ -9,7 +9,7 @@
     "static/media/engineering-cover.jpg": "/static/media/engineering-cover.9c84e1c09fe52d0d146c.jpg",
     "static/media/logo.jpg": "/static/media/logo.a99b5157a984b55f60d6.jpg",
     "static/media/contact-pattern.png": "/static/media/contact-pattern.6133fe2b7130310796b8.png",
-    "static/media/resume.pdf": "/static/media/resume.c5b56cd6ffb170319da2.pdf",
+    "static/media/resume.pdf": "/static/media/resume.4ee511db5ea10d398b2d.pdf",
     "static/media/bb.png": "/static/media/bb.bad12e0676d8d7b19d18.png",
     "static/media/knowledge-pattern.png": "/static/media/knowledge-pattern.3028bf57f2a654d6ff7c.png",
     "static/media/rollout.png": "/static/media/rollout.cc0d79943fc54072b2a2.png",
@@ -21,10 +21,10 @@
     "static/media/gd.jpg": "/static/media/gd.2eebaf4b6badf65fa498.jpg",
     "index.html": "/index.html",
     "main.67bff359.css.map": "/static/css/main.67bff359.css.map",
-    "main.3fc880d3.js.map": "/static/js/main.3fc880d3.js.map"
+    "main.ba20eb56.js.map": "/static/js/main.ba20eb56.js.map"
   },
   "entrypoints": [
     "static/css/main.67bff359.css",
-    "static/js/main.3fc880d3.js"
+    "static/js/main.ba20eb56.js"
   ]
 }
