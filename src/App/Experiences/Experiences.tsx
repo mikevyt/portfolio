@@ -23,11 +23,16 @@ export const Experiences = () => {
       date: "September 2022 - Present",
       location: "San Mateo, CA",
       body: `
-                I'm working on improving our billing and payments experiences 
-                to make it easier for customers to digest.
+                I'm working to help our customers harness the power of AI.
+                <br/>
+                Previously, I worked on improving our billing and payments 
+                experiences to make it easier for customers to digest.
+                <br/>
+                Previous to that, I worked on the Marketplace, allowing providers 
+                to better sell to customers.
                 <br/>
                 <br/>
-                <b>Tech:</b> TypeScript, React, Express, Java
+                <b>Tech:</b> Python, TypeScript, React, Express, Java
             `,
     },
     {

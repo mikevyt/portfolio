@@ -43,7 +43,7 @@ const SplashText = () => {
         >
           Snowflake
         </a>{" "}
-        working on the Billing & Payments Platform.
+        working in AI/ML.
       </h2>
       <div className="button-row">
         <a
